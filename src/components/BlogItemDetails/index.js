@@ -41,7 +41,7 @@ class BlogItemDetails extends Component {
           <p className="details-author-name">{author}</p>
         </div>
 
-        <img className="blog-image" src="imageUrl" alt={title} />
+        <img className="blog-image" src={imageUrl} alt={title} />
         <p className="blog-content">{content}</p>
       </div>
     )
